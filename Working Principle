@@ -1,7 +1,15 @@
-The ADXL345 accelerometer sensor continuously measures acceleration values along the X, Y, and Z axes. Under normal vehicle operation, the sensor outputs stable acceleration readings. During an accident or sudden impact, the sensor detects a significant spike in acceleration values.
+The ADXL345 accelerometer sensor continuously measures acceleration values along the X, Y, and Z axes. 
 
-These values are transmitted to the microcontroller, which analyzes the readings based on predefined threshold limits. If the acceleration exceeds the threshold level indicating a collision or severe impact, the system identifies it as an accident event.
+Under normal vehicle operation, the sensor outputs stable acceleration readings. 
 
-Once the accident condition is confirmed, the microcontroller sends commands to the GSM 4G module using serial communication. The GSM module then sends an SMS alert to pre-programmed emergency contact numbers, informing them about the accident.
+During an accident or sudden impact, the sensor detects a significant spike in acceleration values.
+
+These values are transmitted to the microcontroller, which analyzes the readings based on predefined threshold limits. 
+
+If the acceleration exceeds the threshold level indicating a collision or severe impact, the system identifies it as an accident event.
+
+Once the accident condition is confirmed, the microcontroller sends commands to the GSM 4G module using serial communication. 
+
+The GSM module then sends an SMS alert to pre-programmed emergency contact numbers, informing them about the accident.
 
 This automatic alert mechanism helps ensure faster response and assistance for the victim.
