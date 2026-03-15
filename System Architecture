@@ -1,0 +1,10 @@
+The system consists of three main functional units:
+
+Sensing Unit
+The ADXL345 accelerometer continuously monitors motion and vibration levels.
+
+Processing Unit
+The microcontroller processes sensor data and detects abnormal acceleration patterns that indicate a possible accident.
+
+Communication Unit
+Once an accident is detected, the GSM module automatically sends an alert message to predefined phone numbers.
