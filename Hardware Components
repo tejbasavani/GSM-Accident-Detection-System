@@ -1,0 +1,7 @@
+| Component                    | Purpose                                       |
+| ---------------------------- | --------------------------------------------- |
+| MicroProcessor (Atmega328P)    | Processes sensor data and controls the system |
+| ADXL345 Accelerometer Sensor | Detects sudden acceleration or impact         |
+| GSM 4G Module                | Sends SMS alerts to emergency contacts        |
+| Power Supply                 | Provides required voltage to the system       |
+| Connecting Wires             | Hardware interfacing                          |
